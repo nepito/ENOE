@@ -55,7 +55,6 @@ mean(ocupados21$NIV_INS)
      
 
 rm(sdem21)
-library(survey)
 options(survey.lonely.psu="adjust")
 
 #EspecificaciÃ³n de la muestra compleja (estratificada y multietÃ¡pica)
